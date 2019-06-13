@@ -16,14 +16,14 @@
 
 	payload 
 
-	{
+	`{
 	  "initialDate": "2019-06-06T10:10:10Z",
 	  "delay": 4
-	}
+	}`
 
 	expected response
 
-	{
+	`{
 	    "ok": true,
 	    "initialQuery": {
 	        "initialDate": "2019-06-06T10:10:10Z",
@@ -35,7 +35,7 @@
 	        "holidayDays": 0,
 	        "weekendDays": 2
 	    }
-	}
+	}`
 
 	POST http://127.0.0.1:4000/api/v1/businessDates/isBusinessDay
 
